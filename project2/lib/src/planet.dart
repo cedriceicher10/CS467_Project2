@@ -3,4 +3,8 @@ class Planet {
   String? description;
 
   Planet({this.name, this.description});
+
+  Planet.nullPlanet()
+      : name = 'NullPlanet',
+        description = 'NullDescription';
 }
